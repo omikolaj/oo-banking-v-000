@@ -8,4 +8,9 @@ class Transfer
     self.amount = amount
     self.status = "pending"
   end
+
+  def valid?
+
+  end
+
 end
