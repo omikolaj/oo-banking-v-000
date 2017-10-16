@@ -6,6 +6,6 @@ class Transfer
     self.sender = sender
     self.receiver = receiver
     self.amount = amount
-    self.status = pending
+    self.status = "pending"
   end
 end
